@@ -3,8 +3,7 @@ Descripción: Implementación de Dijkstra and Dial
 
 
 # Ambiente de desarrollo
-SO RHEL 6.5
-g++ 4.4.7
+SO RHEL 6.5 y g++ 4.4.7.
 
 
 # Instalación
