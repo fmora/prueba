@@ -258,7 +258,7 @@ void dial(){
 				vBucket[i].erase(vBucket[i].begin());
 				i=vBucketSize+1;
 			}
-		/there is not item in the buckets
+		//there is not item in the buckets
 		if(selectedNode == -1) break;
 
 		//add node to S and solution and delete from nonS
