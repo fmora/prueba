@@ -10,7 +10,7 @@ int main(int argc, char* argv[]){
 	if (readFiles() == 2){
 		//ask for the algorithm to use
 		if(sourceNode > 0 && sourceNode < nNodes){
-			cout<<"Available algortihm"<<endl<<"Enter 1 for Dijkstra"<<endl<<"Enter 2 for Dial"<<endl<<"Enter option:";
+			cout<<"Available algorithm"<<endl<<"Enter 1 for Dijkstra"<<endl<<"Enter 2 for Dial"<<endl<<"Enter option:";
 			cin>>alg;
 			//run the algorithm
 			if(alg == 1)dijkstra();
